@@ -23,7 +23,7 @@ int main() {
       cout<<"Enter the Gregorian Date that you want to convert eg -> (Jun 15 2017) \n";
       cin>>month>>day>>year;
 
-      tie(year_conv, month_conv, day_conv) = get_converted_date(year, month, day);
+      tie(year_conv, month_conv, day_conv) = to_ethiopian_date(year, month, day);
       
       /** Now the year_conv, month_conv and day_conv - variables holds
         * the converted year, converted month and the converted day respectively
