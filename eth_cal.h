@@ -179,12 +179,7 @@ pair<string, int> map_month(string month, int day_to_r) {
     }
 
         return make_pair(gregorian_to_ethiopian[month], day_f);
-
 }
-
-
-
-
 
 
 /**
@@ -244,7 +239,7 @@ int get_day(int year, string month, int day) {
 
   */
 
-tuple<int, string, int> get_converted_date(int year, string month, int day) {
+tuple<int, string, int> to_ethiopian_date(int year, string month, int day) {
 
         string month_conv;
         int day_conv, year_conv, monthNumber, day_to_ret;
