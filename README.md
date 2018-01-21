@@ -20,7 +20,7 @@ int main() {
       int year, day, year_conv, day_conv;
 
 
-      cout<<"Enter the Gregorian Date that you want to print the Calender eg -> (Jun 15 2017) \n";
+      cout<<"Enter the Gregorian Date that you want to convert eg -> (Jun 15 2017) \n";
       cin>>month>>day>>year;
 
       tie(year_conv, month_conv, day_conv) = get_converted_date(year, month, day);
