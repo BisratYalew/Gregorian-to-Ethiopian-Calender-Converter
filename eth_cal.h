@@ -1,7 +1,7 @@
 /**
     eth_cal.h
     
-    Purpose: Converts Gregorian Date to Ethiopian Date
+    Purpose: Converts Gregorian Date to Ethiopian Date 
 
     @author  -  Bisrat Yalew
 
