@@ -4,7 +4,7 @@ This will allow you to convert Gregorian Calender to Ethiopian Calender and vice
 
 ## How do I use it?
 
-**If your compiler is not c++11 mode, you have to add <b>-std=c++1 or -std=gnu++11</b> on your compiler settings/compiler flags**
+**If your compiler is not c++11 mode, you have to add <b>-std=c++11 or -std=gnu++11</b> on your compiler settings/compiler flags**
 
 
 The usage is really simple.
